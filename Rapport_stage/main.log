@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.16)  17 SEP 2022 13:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.16)  17 SEP 2022 13:50
 entering extended mode
 **./main.tex
 (main.tex
@@ -1297,7 +1297,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--15
 
 LaTeX Warning: Citation `ahu61' on page 10 undefined on input line 18.
 
-<./img/intro/bpce_orga.png, id=164, 821.0675pt x 541.02126pt>
+<./img/intro/bpce_orga.png, id=166, 821.0675pt x 541.02126pt>
 File: ./img/intro/bpce_orga.png Graphic file (type png)
 <use ./img/intro/bpce_orga.png>
 Package pdftex.def Info: ./img/intro/bpce_orga.png  used on input line 19.
@@ -1308,7 +1308,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: Citation `ab94' on page 10 undefined on input line 28.
 
-<./img/intro/nim_kpi.png, id=166, 958.58125pt x 221.82875pt>
+<./img/intro/nim_kpi.png, id=168, 958.58125pt x 221.82875pt>
 File: ./img/intro/nim_kpi.png Graphic file (type png)
 <use ./img/intro/nim_kpi.png>
 Package pdftex.def Info: ./img/intro/nim_kpi.png  used on input line 29.
@@ -1319,7 +1319,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: Citation `m85' on page 10 undefined on input line 34.
 
-<./img/intro/nim_loc.png, id=167, 876.27374pt x 295.1025pt>
+<./img/intro/nim_loc.png, id=169, 876.27374pt x 295.1025pt>
 File: ./img/intro/nim_loc.png Graphic file (type png)
 <use ./img/intro/nim_loc.png>
 Package pdftex.def Info: ./img/intro/nim_loc.png  used on input line 35.
@@ -1330,7 +1330,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: Citation `ah2006' on page 10 undefined on input line 45.
 
-<./img/intro/seeyond_objectifs.png, id=168, 1140.26pt x 433.62pt>
+<./img/intro/seeyond_objectifs.png, id=170, 1140.26pt x 433.62pt>
 File: ./img/intro/seeyond_objectifs.png Graphic file (type png)
 <use ./img/intro/seeyond_objectifs.png>
 Package pdftex.def Info: ./img/intro/seeyond_objectifs.png  used on input line 
@@ -1367,12 +1367,12 @@ png>]
 
 LaTeX Warning: Citation `arrow48' on page 12 undefined on input line 59.
 
-<./img/intro/seeyond_kpi.png, id=185, 1085.05376pt x 210.7875pt>
+<./img/intro/seeyond_kpi.png, id=187, 1085.05376pt x 210.7875pt>
 File: ./img/intro/seeyond_kpi.png Graphic file (type png)
 <use ./img/intro/seeyond_kpi.png>
 Package pdftex.def Info: ./img/intro/seeyond_kpi.png  used on input line 60.
 (pdftex.def)             Requested size: 455.24408pt x 88.43687pt.
-<./img/intro/seeyond_hist.png, id=186, 1181.41376pt x 406.51875pt>
+<./img/intro/seeyond_hist.png, id=188, 1181.41376pt x 406.51875pt>
 File: ./img/intro/seeyond_hist.png Graphic file (type png)
 <use ./img/intro/seeyond_hist.png>
 Package pdftex.def Info: ./img/intro/seeyond_hist.png  used on input line 70.
@@ -1512,19 +1512,13 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 
 LaTeX Warning: Citation `arrow48' on page 20 undefined on input line 68.
 
-<./img/notions_math/metric/courbe_metric_fcn.png, id=237, 329.23pt x 183.68625p
+<./img/notions_math/metric/courbe_metric_fcn.png, id=239, 329.23pt x 183.68625p
 t>
 File: ./img/notions_math/metric/courbe_metric_fcn.png Graphic file (type png)
 <use ./img/notions_math/metric/courbe_metric_fcn.png>
 Package pdftex.def Info: ./img/notions_math/metric/courbe_metric_fcn.png  used 
 on input line 69.
 (pdftex.def)             Requested size: 200.0pt x 111.58876pt.
-<./img/notions_math/metric/eq_fcn_con_2.png, id=238, 568.1225pt x 58.2175pt>
-File: ./img/notions_math/metric/eq_fcn_con_2.png Graphic file (type png)
-<use ./img/notions_math/metric/eq_fcn_con_2.png>
-Package pdftex.def Info: ./img/notions_math/metric/eq_fcn_con_2.png  used on in
-put line 80.
-(pdftex.def)             Requested size: 100.0pt x 10.24684pt.
 
 Package fancyhdr Warning: \headheight is too small (14.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1534,35 +1528,20 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
 
 [20 <./img/notions_math/metric/courbe_metric_fcn.png (PNG copy)>]
-<./img/notions_math/metric/metric_discret.png, id=245, 263.98625pt x 101.37875p
-t>
-File: ./img/notions_math/metric/metric_discret.png Graphic file (type png)
-<use ./img/notions_math/metric/metric_discret.png>
-Package pdftex.def Info: ./img/notions_math/metric/metric_discret.png  used on 
-input line 88.
-(pdftex.def)             Requested size: 100.0pt x 38.40211pt.
-File: ./img/notions_math/metric/metric_discret.png Graphic file (type png)
-<use ./img/notions_math/metric/metric_discret.png>
-Package pdftex.def Info: ./img/notions_math/metric/metric_discret.png  used on 
-input line 92.
-(pdftex.def)             Requested size: 100.0pt x 38.40211pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--101
-
+Underfull \hbox (badness 1708) in paragraph at lines 110--111
+[]\OT1/cmr/m/n/12 Pour com-men-cer nous al-lons definir la si-mi-la-rite en c
+o-si-nus. Il s'agit d'une
  []
 
-
-Underfull \hbox (badness 2027) in paragraph at lines 97--101
-\OT1/cmr/m/n/12 qui me-sure le co-si-nus de l'angle entre deux vec-teurs pro-je
-tes dans un es-pace
- []
-
-<./img/notions_math/metric/img_metric_cos.png, id=246, 827.09pt x 340.27126pt>
+<./img/notions_math/metric/img_metric_cos.png, id=247, 827.09pt x 340.27126pt>
 File: ./img/notions_math/metric/img_metric_cos.png Graphic file (type png)
 <use ./img/notions_math/metric/img_metric_cos.png>
 Package pdftex.def Info: ./img/notions_math/metric/img_metric_cos.png  used on 
-input line 107.
+input line 122.
 (pdftex.def)             Requested size: 200.0pt x 82.27943pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 Package fancyhdr Warning: \headheight is too small (14.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1571,27 +1550,14 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
 
-[21 <./img/notions_math/metric/eq_fcn_con_2.png> <./img/notions_math/metric/met
-ric_discret.png>]
-<./img/notions_math/metric/eq_metric_cos.png, id=256, 688.5725pt x 264.99pt>
-File: ./img/notions_math/metric/eq_metric_cos.png Graphic file (type png)
-<use ./img/notions_math/metric/eq_metric_cos.png>
-Package pdftex.def Info: ./img/notions_math/metric/eq_metric_cos.png  used on i
-nput line 113.
-(pdftex.def)             Requested size: 200.0pt x 76.96643pt.
-
-Underfull \hbox (badness 1158) in paragraph at lines 120--121
+[21]
+Underfull \hbox (badness 1158) in paragraph at lines 139--140
 []\OT1/cmr/m/n/12 La va-leur -1 in-di-quera des vec-teurs for-te-ment op-poses
 , c'est-a-dire au-cune
  []
 
 
-LaTeX Warning: Command \textemdash invalid in math mode on input line 126.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 127--132
-
- []
+LaTeX Warning: Command \textemdash invalid in math mode on input line 145.
 
 
 Package fancyhdr Warning: \headheight is too small (14.0pt): 
@@ -1601,30 +1567,14 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
 
-[22 <./img/notions_math/metric/img_metric_cos.png (PNG copy)> <./img/notions_ma
-th/metric/eq_metric_cos.png (PNG copy)>]
-Underfull \hbox (badness 1325) in paragraph at lines 149--164
+[22 <./img/notions_math/metric/img_metric_cos.png (PNG copy)>]
+Underfull \hbox (badness 1325) in paragraph at lines 162--172
 []\OT1/cmr/m/n/12 De nom-breux jeux de donnees im-pliquent des mil-liers, voir
 e des mil-lions de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--164
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--164
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--164
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--164
+Underfull \hbox (badness 10000) in paragraph at lines 162--172
 
  []
 
@@ -1637,22 +1587,22 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
 
 [23]
-Underfull \hbox (badness 10000) in paragraph at lines 169--173
-
- []
-
-<./img/notions_math/hypersphere_1.png, id=271, 505.89pt x 122.4575pt>
+<./img/notions_math/hypersphere_1.png, id=268, 505.89pt x 122.4575pt>
 File: ./img/notions_math/hypersphere_1.png Graphic file (type png)
 <use ./img/notions_math/hypersphere_1.png>
 Package pdftex.def Info: ./img/notions_math/hypersphere_1.png  used on input li
-ne 179.
+ne 196.
 (pdftex.def)             Requested size: 455.24408pt x 110.1995pt.
-<./img/notions_math/hypersphere_2.png, id=272, 488.82625pt x 128.48pt>
+<./img/notions_math/hypersphere_2.png, id=269, 488.82625pt x 128.48pt>
 File: ./img/notions_math/hypersphere_2.png Graphic file (type png)
 <use ./img/notions_math/hypersphere_2.png>
 Package pdftex.def Info: ./img/notions_math/hypersphere_2.png  used on input li
-ne 185.
+ne 208.
 (pdftex.def)             Requested size: 455.24408pt x 119.6557pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 Package fancyhdr Warning: \headheight is too small (14.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1662,12 +1612,12 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
 
 [24 <./img/notions_math/hypersphere_1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 194--196
+Underfull \hbox (badness 10000) in paragraph at lines 220--222
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--200
+Underfull \hbox (badness 10000) in paragraph at lines 222--226
 
  []
 
@@ -1680,17 +1630,17 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
 
 [25 <./img/notions_math/hypersphere_2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 221--226
+Underfull \hbox (badness 10000) in paragraph at lines 247--252
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--226
+Underfull \hbox (badness 10000) in paragraph at lines 247--252
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 241--243
+Underfull \hbox (badness 10000) in paragraph at lines 267--269
 
  []
 
@@ -1703,12 +1653,12 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
 
 [26]
-Underfull \hbox (badness 10000) in paragraph at lines 265--268
+Underfull \hbox (badness 10000) in paragraph at lines 291--294
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 268--271
+Underfull \hbox (badness 10000) in paragraph at lines 294--297
 
  []
 
@@ -1721,29 +1671,29 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
 
 [27]
-<./img/notions_math/courbe.png, id=297, 514.92375pt x 313.17pt>
+<./img/notions_math/courbe.png, id=296, 514.92375pt x 313.17pt>
 File: ./img/notions_math/courbe.png Graphic file (type png)
 <use ./img/notions_math/courbe.png>
-Package pdftex.def Info: ./img/notions_math/courbe.png  used on input line 283.
+Package pdftex.def Info: ./img/notions_math/courbe.png  used on input line 309.
 
 (pdftex.def)             Requested size: 455.24408pt x 276.88065pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 278--297
+Underfull \hbox (badness 10000) in paragraph at lines 304--323
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 278--297
+Underfull \hbox (badness 10000) in paragraph at lines 304--323
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 278--297
+Underfull \hbox (badness 10000) in paragraph at lines 304--323
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 278--297
+Underfull \hbox (badness 10000) in paragraph at lines 304--323
 
  []
 
@@ -1756,40 +1706,40 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
 
 [28 <./img/notions_math/courbe.png>]
-<./img/notions_math/courbe_2.png, id=304, 245.91875pt x 62.2325pt>
+<./img/notions_math/courbe_2.png, id=303, 245.91875pt x 62.2325pt>
 File: ./img/notions_math/courbe_2.png Graphic file (type png)
 <use ./img/notions_math/courbe_2.png>
-Package pdftex.def Info: ./img/notions_math/courbe_2.png  used on input line 30
-7.
+Package pdftex.def Info: ./img/notions_math/courbe_2.png  used on input line 33
+3.
 (pdftex.def)             Requested size: 455.24408pt x 115.20998pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 297--318
+Underfull \hbox (badness 10000) in paragraph at lines 323--344
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 297--318
+Underfull \hbox (badness 10000) in paragraph at lines 323--344
 
  []
 
 
-Underfull \hbox (badness 1102) in paragraph at lines 297--318
+Underfull \hbox (badness 1102) in paragraph at lines 323--344
 \OT1/cmr/m/n/12 a ob-te-nir pour ^etre ca-pable d'avoir des ga-ran-ties sta-ti
 s-tiques sur la qua-lites de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 297--318
+Underfull \hbox (badness 10000) in paragraph at lines 323--344
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 297--318
+Underfull \hbox (badness 10000) in paragraph at lines 323--344
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 297--318
+Underfull \hbox (badness 10000) in paragraph at lines 323--344
 
  []
 
@@ -1802,18 +1752,18 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
 
 [29 <./img/notions_math/courbe_2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 323--327
+Underfull \hbox (badness 10000) in paragraph at lines 349--353
 
  []
 
 
-Underfull \hbox (badness 1048) in paragraph at lines 332--338
+Underfull \hbox (badness 1048) in paragraph at lines 358--364
 \OT1/cmr/m/n/12 L'objet de l'ar-ticle est de mon-trer que l'on com-prend et de
 fini mal les no-tions
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--338
+Underfull \hbox (badness 10000) in paragraph at lines 358--364
 
  []
 
@@ -1835,22 +1785,22 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
 
 [31]
-<./img/notions_math/gradiant_descent/courbe_1.png, id=319, 685.56125pt x 223.83
+<./img/notions_math/gradiant_descent/courbe_1.png, id=318, 685.56125pt x 223.83
 624pt>
 File: ./img/notions_math/gradiant_descent/courbe_1.png Graphic file (type png)
 <use ./img/notions_math/gradiant_descent/courbe_1.png>
 Package pdftex.def Info: ./img/notions_math/gradiant_descent/courbe_1.png  used
- on input line 359.
+ on input line 385.
 (pdftex.def)             Requested size: 455.24408pt x 148.64088pt.
-<./img/notions_math/gradiant_descent/courbe_2.png, id=320, 660.4675pt x 614.295
+<./img/notions_math/gradiant_descent/courbe_2.png, id=319, 660.4675pt x 614.295
 pt>
 File: ./img/notions_math/gradiant_descent/courbe_2.png Graphic file (type png)
 <use ./img/notions_math/gradiant_descent/courbe_2.png>
 Package pdftex.def Info: ./img/notions_math/gradiant_descent/courbe_2.png  used
- on input line 370.
+ on input line 396.
 (pdftex.def)             Requested size: 455.24408pt x 423.43283pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 356--371
+Underfull \hbox (badness 10000) in paragraph at lines 382--397
 
  []
 
@@ -1863,16 +1813,16 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
 
 [32 <./img/notions_math/gradiant_descent/courbe_1.png>]
-<./img/notions_math/gradiant_descent/exercices.png, id=326, 655.44875pt x 680.5
+<./img/notions_math/gradiant_descent/exercices.png, id=325, 655.44875pt x 680.5
 425pt>
 File: ./img/notions_math/gradiant_descent/exercices.png Graphic file (type png)
 
 <use ./img/notions_math/gradiant_descent/exercices.png>
 Package pdftex.def Info: ./img/notions_math/gradiant_descent/exercices.png  use
-d on input line 379.
+d on input line 405.
 (pdftex.def)             Requested size: 455.24408pt x 472.67972pt.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 375--184
+Underfull \hbox (badness 10000) in paragraph at lines 401--184
 
  []
 
@@ -1934,7 +1884,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--26
 
  []
 
-<./img/reduction_dim/lemme_jl/table.png, id=345, 360.34625pt x 464.73625pt>
+<./img/reduction_dim/lemme_jl/table.png, id=344, 360.34625pt x 464.73625pt>
 File: ./img/reduction_dim/lemme_jl/table.png Graphic file (type png)
 <use ./img/reduction_dim/lemme_jl/table.png>
 Package pdftex.def Info: ./img/reduction_dim/lemme_jl/table.png  used on input 
@@ -1949,7 +1899,7 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
 
 [37]
-<./img/reduction_dim/lemme_jl/exercice_jl.png, id=351, 755.82375pt x 527.9725pt
+<./img/reduction_dim/lemme_jl/exercice_jl.png, id=350, 755.82375pt x 527.9725pt
 >
 File: ./img/reduction_dim/lemme_jl/exercice_jl.png Graphic file (type png)
 <use ./img/reduction_dim/lemme_jl/exercice_jl.png>
@@ -1971,19 +1921,19 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 
 [38 <./img/reduction_dim/lemme_jl/table.png> <./img/reduction_dim/lemme_jl/exer
 cice_jl.png>]
-<./img/reduction_dim/lemme_jl/preuve_1.png, id=358, 780.9175pt x 175.65625pt>
+<./img/reduction_dim/lemme_jl/preuve_1.png, id=357, 780.9175pt x 175.65625pt>
 File: ./img/reduction_dim/lemme_jl/preuve_1.png Graphic file (type png)
 <use ./img/reduction_dim/lemme_jl/preuve_1.png>
 Package pdftex.def Info: ./img/reduction_dim/lemme_jl/preuve_1.png  used on inp
 ut line 55.
 (pdftex.def)             Requested size: 455.24408pt x 102.40067pt.
-<./img/reduction_dim/lemme_jl/preuve_2.png, id=359, 594.22pt x 824.07875pt>
+<./img/reduction_dim/lemme_jl/preuve_2.png, id=358, 594.22pt x 824.07875pt>
 File: ./img/reduction_dim/lemme_jl/preuve_2.png Graphic file (type png)
 <use ./img/reduction_dim/lemme_jl/preuve_2.png>
 Package pdftex.def Info: ./img/reduction_dim/lemme_jl/preuve_2.png  used on inp
 ut line 56.
 (pdftex.def)             Requested size: 455.24408pt x 631.37386pt.
-<./img/reduction_dim/lemme_jl/preuve_3.png, id=360, 587.19376pt x 458.71375pt>
+<./img/reduction_dim/lemme_jl/preuve_3.png, id=359, 587.19376pt x 458.71375pt>
 File: ./img/reduction_dim/lemme_jl/preuve_3.png Graphic file (type png)
 <use ./img/reduction_dim/lemme_jl/preuve_3.png>
 Package pdftex.def Info: ./img/reduction_dim/lemme_jl/preuve_3.png  used on inp
@@ -2053,7 +2003,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 100--100
 []\OT1/cmr/bx/n/14.4 Expliquer la theorie/difference avec Johnson-
  []
 
-<./img/reduction_dim/pca/elipse.png, id=385, 818.05624pt x 222.8325pt>
+<./img/reduction_dim/pca/elipse.png, id=384, 818.05624pt x 222.8325pt>
 File: ./img/reduction_dim/pca/elipse.png Graphic file (type png)
 <use ./img/reduction_dim/pca/elipse.png>
 Package pdftex.def Info: ./img/reduction_dim/pca/elipse.png  used on input line
@@ -2079,37 +2029,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 121--123
 
  []
 
-<./img/reduction_dim/pca/vect_prp.png, id=386, 566.115pt x 308.15125pt>
+<./img/reduction_dim/pca/vect_prp.png, id=385, 566.115pt x 308.15125pt>
 File: ./img/reduction_dim/pca/vect_prp.png Graphic file (type png)
 <use ./img/reduction_dim/pca/vect_prp.png>
 Package pdftex.def Info: ./img/reduction_dim/pca/vect_prp.png  used on input li
 ne 130.
 (pdftex.def)             Requested size: 455.24408pt x 247.80966pt.
-<./img/reduction_dim/pca/def_val_prp.png, id=387, 546.04pt x 90.3375pt>
+<./img/reduction_dim/pca/def_val_prp.png, id=386, 546.04pt x 90.3375pt>
 File: ./img/reduction_dim/pca/def_val_prp.png Graphic file (type png)
 <use ./img/reduction_dim/pca/def_val_prp.png>
 Package pdftex.def Info: ./img/reduction_dim/pca/def_val_prp.png  used on input
  line 138.
 (pdftex.def)             Requested size: 455.24408pt x 75.31642pt.
-<./img/reduction_dim/pca/prv_val_prp.png, id=388, 563.10374pt x 157.58875pt>
+<./img/reduction_dim/pca/prv_val_prp.png, id=387, 563.10374pt x 157.58875pt>
 File: ./img/reduction_dim/pca/prv_val_prp.png Graphic file (type png)
 <use ./img/reduction_dim/pca/prv_val_prp.png>
 Package pdftex.def Info: ./img/reduction_dim/pca/prv_val_prp.png  used on input
  line 156.
 (pdftex.def)             Requested size: 455.24408pt x 127.4033pt.
-<./img/reduction_dim/pca/mat_diag.png, id=389, 744.7825pt x 240.9pt>
+<./img/reduction_dim/pca/mat_diag.png, id=388, 744.7825pt x 240.9pt>
 File: ./img/reduction_dim/pca/mat_diag.png Graphic file (type png)
 <use ./img/reduction_dim/pca/mat_diag.png>
 Package pdftex.def Info: ./img/reduction_dim/pca/mat_diag.png  used on input li
 ne 170.
 (pdftex.def)             Requested size: 455.24408pt x 147.25386pt.
-<./img/reduction_dim/pca/mat_puissance.png, id=390, 611.28375pt x 155.58125pt>
+<./img/reduction_dim/pca/mat_puissance.png, id=389, 611.28375pt x 155.58125pt>
 File: ./img/reduction_dim/pca/mat_puissance.png Graphic file (type png)
 <use ./img/reduction_dim/pca/mat_puissance.png>
 Package pdftex.def Info: ./img/reduction_dim/pca/mat_puissance.png  used on inp
 ut line 177.
 (pdftex.def)             Requested size: 455.24408pt x 115.86661pt.
-<./img/reduction_dim/pca/graph_mat.png, id=391, 612.2875pt x 346.29375pt>
+<./img/reduction_dim/pca/graph_mat.png, id=390, 612.2875pt x 346.29375pt>
 File: ./img/reduction_dim/pca/graph_mat.png Graphic file (type png)
 <use ./img/reduction_dim/pca/graph_mat.png>
 Package pdftex.def Info: ./img/reduction_dim/pca/graph_mat.png  used on input l
@@ -2217,7 +2167,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 198--201
 
  []
 
-<./img/reduction_dim/pca/mat_trace.png, id=418, 653.44125pt x 662.475pt>
+<./img/reduction_dim/pca/mat_trace.png, id=417, 653.44125pt x 662.475pt>
 File: ./img/reduction_dim/pca/mat_trace.png Graphic file (type png)
 <use ./img/reduction_dim/pca/mat_trace.png>
 Package pdftex.def Info: ./img/reduction_dim/pca/mat_trace.png  used on input l
@@ -2284,7 +2234,7 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
 
 [51]
-<./img/reduction_dim/t_sne/exemple_data.png, id=441, 645.41125pt x 303.1325pt>
+<./img/reduction_dim/t_sne/exemple_data.png, id=440, 645.41125pt x 303.1325pt>
 File: ./img/reduction_dim/t_sne/exemple_data.png Graphic file (type png)
 <use ./img/reduction_dim/t_sne/exemple_data.png>
 Package pdftex.def Info: ./img/reduction_dim/t_sne/exemple_data.png  used on in
@@ -2330,7 +2280,7 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
 
 [52 <./img/reduction_dim/t_sne/exemple_data.png>]
-<./img/reduction_dim/t_sne/eq_prob_1.png, id=447, 263.98625pt x 68.255pt>
+<./img/reduction_dim/t_sne/eq_prob_1.png, id=446, 263.98625pt x 68.255pt>
 File: ./img/reduction_dim/t_sne/eq_prob_1.png Graphic file (type png)
 <use ./img/reduction_dim/t_sne/eq_prob_1.png>
 Package pdftex.def Info: ./img/reduction_dim/t_sne/eq_prob_1.png  used on input
@@ -2341,13 +2291,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 276--286
 
  []
 
-<./img/reduction_dim/t_sne/eq_prob_2.png, id=448, 168.63pt x 65.24374pt>
+<./img/reduction_dim/t_sne/eq_prob_2.png, id=447, 168.63pt x 65.24374pt>
 File: ./img/reduction_dim/t_sne/eq_prob_2.png Graphic file (type png)
 <use ./img/reduction_dim/t_sne/eq_prob_2.png>
 Package pdftex.def Info: ./img/reduction_dim/t_sne/eq_prob_2.png  used on input
  line 291.
 (pdftex.def)             Requested size: 100.0pt x 38.69058pt.
-<./img/reduction_dim/t_sne/eq_prob_3.png, id=449, 369.38pt x 76.285pt>
+<./img/reduction_dim/t_sne/eq_prob_3.png, id=448, 369.38pt x 76.285pt>
 File: ./img/reduction_dim/t_sne/eq_prob_3.png Graphic file (type png)
 <use ./img/reduction_dim/t_sne/eq_prob_3.png>
 Package pdftex.def Info: ./img/reduction_dim/t_sne/eq_prob_3.png  used on input
@@ -2373,37 +2323,37 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 
 [53 <./img/reduction_dim/t_sne/eq_prob_1.png (PNG copy)> <./img/reduction_dim/t
 _sne/eq_prob_2.png (PNG copy)>]
-<./img/reduction_dim/t_sne/eq_prob_4.png, id=457, 113.42375pt x 35.13126pt>
+<./img/reduction_dim/t_sne/eq_prob_4.png, id=456, 113.42375pt x 35.13126pt>
 File: ./img/reduction_dim/t_sne/eq_prob_4.png Graphic file (type png)
 <use ./img/reduction_dim/t_sne/eq_prob_4.png>
 Package pdftex.def Info: ./img/reduction_dim/t_sne/eq_prob_4.png  used on input
  line 309.
 (pdftex.def)             Requested size: 100.0pt x 30.97346pt.
-<./img/reduction_dim/t_sne/eq_prob_5.png, id=458, 223.83624pt x 33.12375pt>
+<./img/reduction_dim/t_sne/eq_prob_5.png, id=457, 223.83624pt x 33.12375pt>
 File: ./img/reduction_dim/t_sne/eq_prob_5.png Graphic file (type png)
 <use ./img/reduction_dim/t_sne/eq_prob_5.png>
 Package pdftex.def Info: ./img/reduction_dim/t_sne/eq_prob_5.png  used on input
  line 313.
 (pdftex.def)             Requested size: 100.0pt x 14.79839pt.
-<./img/reduction_dim/t_sne/eq_prob_6.png, id=459, 248.93pt x 49.18375pt>
+<./img/reduction_dim/t_sne/eq_prob_6.png, id=458, 248.93pt x 49.18375pt>
 File: ./img/reduction_dim/t_sne/eq_prob_6.png Graphic file (type png)
 <use ./img/reduction_dim/t_sne/eq_prob_6.png>
 Package pdftex.def Info: ./img/reduction_dim/t_sne/eq_prob_6.png  used on input
  line 321.
 (pdftex.def)             Requested size: 100.0pt x 19.75793pt.
-<./img/reduction_dim/t_sne/eq_prob_7.png, id=460, 146.5475pt x 32.12pt>
+<./img/reduction_dim/t_sne/eq_prob_7.png, id=459, 146.5475pt x 32.12pt>
 File: ./img/reduction_dim/t_sne/eq_prob_7.png Graphic file (type png)
 <use ./img/reduction_dim/t_sne/eq_prob_7.png>
 Package pdftex.def Info: ./img/reduction_dim/t_sne/eq_prob_7.png  used on input
  line 323.
 (pdftex.def)             Requested size: 100.0pt x 21.91776pt.
-<./img/reduction_dim/t_sne/eq_prob_8.png, id=461, 369.38pt x 76.285pt>
+<./img/reduction_dim/t_sne/eq_prob_8.png, id=460, 369.38pt x 76.285pt>
 File: ./img/reduction_dim/t_sne/eq_prob_8.png Graphic file (type png)
 <use ./img/reduction_dim/t_sne/eq_prob_8.png>
 Package pdftex.def Info: ./img/reduction_dim/t_sne/eq_prob_8.png  used on input
  line 331.
 (pdftex.def)             Requested size: 100.0pt x 20.65193pt.
-<./img/reduction_dim/t_sne/eq_prob_9.png, id=462, 218.8175pt x 36.135pt>
+<./img/reduction_dim/t_sne/eq_prob_9.png, id=461, 218.8175pt x 36.135pt>
 File: ./img/reduction_dim/t_sne/eq_prob_9.png Graphic file (type png)
 <use ./img/reduction_dim/t_sne/eq_prob_9.png>
 Package pdftex.def Info: ./img/reduction_dim/t_sne/eq_prob_9.png  used on input
@@ -2419,25 +2369,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 308--338
 
  []
 
-<./img/reduction_dim/t_sne/eq_red_dim_1.png, id=463, 317.185pt x 78.2925pt>
+<./img/reduction_dim/t_sne/eq_red_dim_1.png, id=462, 317.185pt x 78.2925pt>
 File: ./img/reduction_dim/t_sne/eq_red_dim_1.png Graphic file (type png)
 <use ./img/reduction_dim/t_sne/eq_red_dim_1.png>
 Package pdftex.def Info: ./img/reduction_dim/t_sne/eq_red_dim_1.png  used on in
 put line 351.
 (pdftex.def)             Requested size: 100.0pt x 24.68376pt.
-<./img/reduction_dim/t_sne/eq_red_dim_2.png, id=464, 346.29375pt x 68.255pt>
+<./img/reduction_dim/t_sne/eq_red_dim_2.png, id=463, 346.29375pt x 68.255pt>
 File: ./img/reduction_dim/t_sne/eq_red_dim_2.png Graphic file (type png)
 <use ./img/reduction_dim/t_sne/eq_red_dim_2.png>
 Package pdftex.def Info: ./img/reduction_dim/t_sne/eq_red_dim_2.png  used on in
 put line 355.
 (pdftex.def)             Requested size: 100.0pt x 19.71011pt.
-<./img/reduction_dim/t_sne/graph.png, id=465, 923.45pt x 923.45pt>
+<./img/reduction_dim/t_sne/graph.png, id=464, 923.45pt x 923.45pt>
 File: ./img/reduction_dim/t_sne/graph.png Graphic file (type png)
 <use ./img/reduction_dim/t_sne/graph.png>
 Package pdftex.def Info: ./img/reduction_dim/t_sne/graph.png  used on input lin
 e 359.
 (pdftex.def)             Requested size: 455.24408pt x 455.24214pt.
-<./img/reduction_dim/t_sne/eq_red_dim_3.png, id=466, 364.36125pt x 170.6375pt>
+<./img/reduction_dim/t_sne/eq_red_dim_3.png, id=465, 364.36125pt x 170.6375pt>
 File: ./img/reduction_dim/t_sne/eq_red_dim_3.png Graphic file (type png)
 <use ./img/reduction_dim/t_sne/eq_red_dim_3.png>
 Package pdftex.def Info: ./img/reduction_dim/t_sne/eq_red_dim_3.png  used on in
@@ -2475,13 +2425,13 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
 
 [56 <./img/reduction_dim/t_sne/graph.png (PNG copy)>]
-<./img/reduction_dim/t_sne/desc_grad_1.png, id=482, 424.58624pt x 85.31876pt>
+<./img/reduction_dim/t_sne/desc_grad_1.png, id=481, 424.58624pt x 85.31876pt>
 File: ./img/reduction_dim/t_sne/desc_grad_1.png Graphic file (type png)
 <use ./img/reduction_dim/t_sne/desc_grad_1.png>
 Package pdftex.def Info: ./img/reduction_dim/t_sne/desc_grad_1.png  used on inp
 ut line 375.
 (pdftex.def)             Requested size: 455.24408pt x 91.48412pt.
-<./img/reduction_dim/t_sne/desc_grad_2.png, id=483, 470.75874pt x 73.27374pt>
+<./img/reduction_dim/t_sne/desc_grad_2.png, id=482, 470.75874pt x 73.27374pt>
 File: ./img/reduction_dim/t_sne/desc_grad_2.png Graphic file (type png)
 <use ./img/reduction_dim/t_sne/desc_grad_2.png>
 Package pdftex.def Info: ./img/reduction_dim/t_sne/desc_grad_2.png  used on inp
@@ -2492,7 +2442,7 @@ File: ./img/reduction_dim/t_sne/exemple_data.png Graphic file (type png)
 Package pdftex.def Info: ./img/reduction_dim/t_sne/exemple_data.png  used on in
 put line 389.
 (pdftex.def)             Requested size: 455.24408pt x 213.81482pt.
-<./img/reduction_dim/t_sne/exemple_data_2.png, id=484, 401.5pt x 401.5pt>
+<./img/reduction_dim/t_sne/exemple_data_2.png, id=483, 401.5pt x 401.5pt>
 File: ./img/reduction_dim/t_sne/exemple_data_2.png Graphic file (type png)
 <use ./img/reduction_dim/t_sne/exemple_data_2.png>
 Package pdftex.def Info: ./img/reduction_dim/t_sne/exemple_data_2.png  used on 
@@ -2604,7 +2554,7 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
 
 [62]
-<./img/umap/graph.png, id=512, 692.5875pt x 305.14pt>
+<./img/umap/graph.png, id=511, 692.5875pt x 305.14pt>
 File: ./img/umap/graph.png Graphic file (type png)
 <use ./img/umap/graph.png>
 Package pdftex.def Info: ./img/umap/graph.png  used on input line 54.
@@ -2643,12 +2593,12 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
 
 [63 <./img/umap/graph.png>]
-<./img/umap/eq_1.png, id=518, 652.4375pt x 66.2475pt>
+<./img/umap/eq_1.png, id=517, 652.4375pt x 66.2475pt>
 File: ./img/umap/eq_1.png Graphic file (type png)
 <use ./img/umap/eq_1.png>
 Package pdftex.def Info: ./img/umap/eq_1.png  used on input line 68.
 (pdftex.def)             Requested size: 455.24408pt x 46.22635pt.
-<./img/umap/eq_2.png, id=519, 657.45625pt x 57.21375pt>
+<./img/umap/eq_2.png, id=518, 657.45625pt x 57.21375pt>
 File: ./img/umap/eq_2.png Graphic file (type png)
 <use ./img/umap/eq_2.png>
 Package pdftex.def Info: ./img/umap/eq_2.png  used on input line 74.
@@ -2707,7 +2657,7 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
 
 [64 <./img/umap/eq_1.png> <./img/umap/eq_2.png>]
-<./img/umap/reduction_dim.png, id=528, 627.34375pt x 143.53625pt>
+<./img/umap/reduction_dim.png, id=527, 627.34375pt x 143.53625pt>
 File: ./img/umap/reduction_dim.png Graphic file (type png)
 <use ./img/umap/reduction_dim.png>
 Package pdftex.def Info: ./img/umap/reduction_dim.png  used on input line 134.
@@ -2827,10 +2777,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 24648 strings out of 479618
- 398472 string characters out of 2865026
+ 24631 strings out of 479618
+ 397669 string characters out of 2865026
  821864 words of memory out of 3000000
- 41083 multiletter control sequences out of 15000+200000
+ 41066 multiletter control sequences out of 15000+200000
  416944 words of font info for 84 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,13n,77p,3262b,560s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2855,9 +2805,9 @@ l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/abdel/App
 Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/U
 sers/abdel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/ms
 bm10.pfb>
-Output written on main.pdf (77 pages, 3678064 bytes).
+Output written on main.pdf (77 pages, 3631328 bytes).
 PDF statistics:
  663 PDF objects out of 1000 (max. 8388607)
- 166 named destinations out of 1000 (max. 500000)
- 261 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 169 named destinations out of 1000 (max. 500000)
+ 246 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -78,40 +78,59 @@ $$ d_p(f,g) = (\int_a^b  \lvert f(x) - g(x) \rvert ^p dx)^{1/p}$$
 Soit $C[a, b]$ l'espace des fonctions continues avec le domaine $[a, b]$. Nous pouvons définir la métrique suivante comme êtant la distance maximale entre $f$ et $g$ dans l'intervalle $[a, b] $: 
 
 %\includegraphics[width=100pt]{./img/notions_math/metric/eq_fcn_con_2}
-$$ d_\infty(f,g) = max \left\{  \lvert f(x) - g(x) \rvert : x \in [a,b] \right\}
-$$
+$$ d_\infty(f,g) = max \left\{  \lvert f(x) - g(x) \rvert : x \in [a,b] \right\}$$
 
     
 \section*{Espaces Métrique}
 Maintenant que nous avons une idée de ce qu'est une métrique, nous pouvons définir les espaces métriques. Un espace métrique est une paire (X, d) où X est un ensemble, et d est une métrique définie sur des points de l'ensemble X. Nous venons de voir plusieurs exemples d'espaces métriques ci-dessus. Nous allons maintenant examiner certaines propriétés importantes des espaces métriques.
-\\
-\includegraphics[width=100pt]{./img/notions_math/metric/metric_discret.png}
-\\
-Soit (X, d) un espace métrique, et soit $x_0$ un élément quelconque de X. Pour un certain $r > 0$ fixé, définissez la boule ouverte de rayon r centrée sur $x_0$ par l'ensemble ci-dessous (aussi écrit $B(x_0 ; r)$): 
-\\
-\includegraphics[width=100pt]{./img/notions_math/metric/metric_discret.png}
 
+%\includegraphics[width=100pt]{./img/notions_math/metric/metric_discret.png}
+\[ d(x,y) =
+  \begin{cases}
+    1       & \quad \text{si } x \ne y \\
+    0       & \quad \text{si } x = y 
+  \end{cases}
+\]
+
+Soit (X, d) un espace métrique, et soit $x_0$ un élément quelconque de X. Pour un certain $r > 0$ fixé, définissez la boule ouverte de rayon r centrée sur $x_0$ par l'ensemble ci-dessous (aussi écrit $B(x_0 ; r)$): 
+
+%\includegraphics[width=100pt]{./img/notions_math/metric/metric_discret.png}
+\[ d(x,y) =
+  \begin{cases}
+    1       & \quad \text{si } x \ne y \\
+    0       & \quad \text{si } x = y 
+  \end{cases}
+\]
 
 
 \section*{Cosine Distance}
 Nous allons nous intésser à la distance cosinus (ainsi  qu'à la similarité cosinus). En effet, comme nous allons le  voir plus tard, cette mesure peut être intéressantes dans notre utilisation de UMAP. En effet, nous verrons que le choix de la métrique peut avoir une influence intéressante sur l'algorithme et nous allons essayer de comprendre pourquoi cette métrique peut être particulièrement adapté à notre problème (ou pas).
-\\
-\\
+
+
 Pour commencer nous allons définir la similarité en cosinus. Il s'agit d'une métrique qui mesure le cosinus de l'angle entre deux vecteurs projetés dans un espace multidimensionnel.
 
 
 Plus l'angle entre les deux vecteurs est petit, plus ils sont similaires l'un à l'autre; Donc plus la similarité cosinus se rapproche de 1, plus l'angle entre les deux vecteurs A et B est faible. Dans ce cas, A et B sont plus similaires l'un à l'autre.
-\\
-Supposons maintenant que l'angle entre les deux vecteurs soit de 90 degrés, la similitude en cosinus aura une valeur de 0. Cela signifie que les deux vecteurs sont perpendiculaires l'un à l'autre, ce qui signifie qu'il n'y a aucune corrélation entre eux.
-\\
-\includegraphics[width=200pt]{./img/notions_math/metric/img_metric_cos.png}
 
+
+Supposons maintenant que l'angle entre les deux vecteurs soit de 90 degrés, la similitude en cosinus aura une valeur de 0. Cela signifie que les deux vecteurs sont perpendiculaires l'un à l'autre, ce qui signifie qu'il n'y a aucune corrélation entre eux.
+
+
+\begin{figure}[h!]
+	\begin{center}
+		\caption{Titre de la figure (source)}
+		\includegraphics[width=200pt]{./img/notions_math/metric/img_metric_cos.png}
+	\end{center}
+\end{figure}
 
 La similarité en cosinus est décrite mathématiquement comme la division entre le produit scalaire des vecteurs et le produit des normes euclidiennes ou de la magnitude de chaque vecteur :
 
 
-\includegraphics[width=200pt]{./img/notions_math/metric/eq_metric_cos.png}
-\\
+%\includegraphics[width=200pt]{./img/notions_math/metric/eq_metric_cos.png}
+$$ cos \theta = \frac{\vec{a}.\vec{b}}{\parallel\vec{a} \parallel\parallel  \vec{b}\parallel}$$
+$$\parallel \vec{a} \parallel = \sqrt{a_1^2 + a_2^2 + a_3^2 + \dots +a_n^2}$$
+$$\parallel \vec{b} \parallel = \sqrt{b_1^2 + b_2^2 + b_3^2 + \dots +b_n^2}$$
+
 Où, a et b sont des vecteurs dans un espace multidimensionnel.
 
 
@@ -126,8 +145,8 @@ La distance cosinus est définit comme :
     Cosine Distance = 1 — Cosine Similarity
 \end{eqnarray}
 L'intuition derrière cela est que si 2 vecteurs sont parfaitement identiques alors la similarité est de 1 (angle=0 donc $\cos(\theta)$=1) et donc, la distance est de 0 (1-1=0).
-\\
-\\
+
+
 La distance du cosinus est utilisée dans de nombreux domaines, par exemple :
 \begin{enumerate}
     \item Cette métrique est utilisée dans les processus d'exploration de données, de recherche d'informations et de mise en correspondance de textes.
@@ -136,13 +155,7 @@ La distance du cosinus est utilisée dans de nombreux domaines, par exemple :
 \end{enumerate}
 
 
-
 \newpage
-
-
-
-
-
 
 
 \section{Fléau de la dimension}
@@ -156,34 +169,47 @@ Lorsque nous avons trop de caractéristiques, les observations deviennent plus d
 Le fait d'avoir trop de caractéristiques peut perturber certains algorithmes de machine learning tels que les algorithmes de clustering. La réduction de la dimensionnalité peut aider à améliorer les performances de ceux-ci.
 \\
 Dans le monde réel les données souvent désordonnées avec du bruit et des relations compliquées. La réduction de la dimensionnalité représente un compromis entre un modèle potentiellement plus robuste et une interprétabilité moindre.
-\\
-\\
-\\
-\\
+
+
 Georg Cantor est un mathématicien allemand du 19e siècle qui est particulièrement connu pour son travail sur la théorie des ensembles et plus spécifiquement sur ses résultats concernant l’infini. L’ensemble des nombres entier est infini par construction, mais l’ensemble des nombres entier relatif également. Et intuitivement, nous nous disons que ces infini ne sont pas vraiment les mêmes, puisqu’il semblerait que Z soit plus grand que N ! Georg Cantor montre que ces deux infini sont en fait les mêmes : il y a autant de nombres dans Z que dans N. Plus fort encore, il démontre la puissance de l’infini qui nous donne un résultat encore plus contre intuitif : il y a autant de nombre dans l’interval $[0, 1]$ que dans R tout entier ! Alors qu’il venait de le démontrer, il a envoyé une lettre à son ami mathématicien Dedekind :
+
 \begin{quotation}
     Tant que vous ne m’aurez pas approuvé, je ne puis que dire : je le vois mais je ne le crois pas.
     \\
     Georg Cantor (1877)
 \end{quotation}
 Il a prouvé quelque chose que l’ensemble de la communauté pensait intuitivement fausse, et lui-même n’y croyait pas. Nous sommes toujours mis en difficulté quand il s’agit de traiter avec l’infini, ou des grandes quantités. Cette remarque nous amène donc à nous questionner sur l’impact d’un grand nombre d’informations quand nous entraînons un modèle de Machine Learning.
-\\
-\\
+
+
 Le fléau de la dimension est un phénomène connu en statistique et en Machine Learning. Ce terme rassemble tout un ensemble de phénomène qui se produisent en très grande dimension, mais pas dans une dimension plus petite. Nous proposons dans cette annexe d’illustrer quelque-uns des phénomènes étranges de la grande dimension et ses impacts en Machine Learning.
 \begin{quotation}
     The curse of dimensionality is taught in every Machine Learning programs, and refers to \textit{various phenomea that arise when analyzing and organizing data in high-dimensional spaces that do not occur in low-dimensional settings}\footnote{Definition from Wikipedia}. Living in a three dimensional world, it is known to be hard for human to apprehend infinity\footnote{e.g. the Cantor's work in mathematics with infinite set in set theory.}. Not fully understanding what the curse of dimensionality was as a student, I decided to look for strange behavior in high-dimension, hoping that it would shed light on the dimension curse.
 \end{quotation}
+
 \textbf{Volume d’une hypersphère}
 Pour essayer de sentir les problèmes de la très grande dimension, on s’intéresse au volume d’une hypersphère.
-\\
-\includegraphics[width=\linewidth]{./img/notions_math/hypersphere_1}
-\\
+
+
+\begin{figure}[h!]
+	\begin{center}
+		\caption{Titre de la figure (source)}
+		\includegraphics[width=\linewidth]{./img/notions_math/hypersphere_1}
+	\end{center}
+\end{figure}
+
 Avec la figure ci-dessus nous avons l’intuition que le volume augmente avec la dimension. Donc pour une hypersphère de très grande dimension, on devrait avoir un très grand volume.
-\\
+
 Nous avons tracé et mesuré le volume pour la distance euclidienne classique, mais nous pouvons aussi utiliser d’autre distance (autre norme) comme montré dans la figure ci-dessous.
-\\
-\includegraphics[width=\linewidth]{./img/notions_math/hypersphere_2}
-\\
+
+
+\begin{figure}[h!]
+	\begin{center}
+		\caption{Titre de la figure (source)}
+		\includegraphics[width=\linewidth]{./img/notions_math/hypersphere_2}
+	\end{center}
+\end{figure}
+
+
 Formalisons le problème et généralisons-le pour calculer le volume d’une hypersphère en n’importe quelle dimension et pour n’importe quelle norme. Soit $n \in \mathbb{N}^*$ la dimension de l’espace, on appelle boule ou hypersphère l’objet défini par :
 
 \begin{eqnarray*} 
