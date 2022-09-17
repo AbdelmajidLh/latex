@@ -1,0 +1,294 @@
+\documentclass[a4paper,12pt,oneside]{book}
+
+% Paquets additionnels
+\input{Config/config.tex}
+
+
+
+\hyphenpenalty 10000 %evite de couper les mots
+% Définition du type de la bibliographie
+\bibliographystyle{IEEEtran}
+
+% Avoir "tableau" au lieu de "table" dans les légendes
+\addto\captionsfrench{\def\tablename{Tableau}}
+
+%Permet d'activer les liens dans le document pdf
+\graphicspath{{802-11-intro/}{doxydoc/}}
+\usepackage[pagebackref=false,colorlinks=true,citecolor=blue,linkcolor=black,breaklinks=true,bookmarks=false]{hyperref}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Propriétés du document pour le pdf (package hyperref)
+\hypersetup{
+pdfauthor = {Nom prénom},% Forcer le codage unicode pour les propriétés du document
+pdftitle = {rapport de stage},
+pdfsubject = {Titre},
+pdfkeywords = {, , }}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Utilisation du style de thèse personnalisé
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{Style_these}
+%\input{flagrant_template}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Début du document
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Page de garde
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{Pages/page_garde.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%une page vierge
+\newpage
+\thispagestyle{empty}
+\null
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Page dedicace
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{Pages/page_dedicace.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%une page vierge
+\newpage
+\thispagestyle{empty}
+\null
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Pages de remerciements
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{Pages/page_merci.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Modification du style des pages
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Compteur page à 1
+\setcounter{page}{1}
+% Style fancy pour le reste du document
+\pagestyle{fancy} 
+% Numéro de page en bas à droite
+\cfoot{}
+\rhead[]{}
+\rfoot[]{Page \thepage}
+%Trace un trait en bas de page et ajout du titre de la thèse
+\renewcommand{\footrulewidth}{0.4pt}
+\lfoot[]{\textit{Mémoire Master}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Table des matières
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Espace simple pour la TDM, TDF, LDT
+\singlespacing
+% Definition de l'en-tête
+\lhead[]{Table des matières}
+
+%TDM
+%\addcontentsline{toc}{chapter}{\large Table des matières}
+\tableofcontents
+\newpage
+
+% Table des figures
+\lhead[]{Table des figures}
+\addcontentsline{toc}{chapter}{\large Table des figures} 
+\listoffigures
+
+\newpage
+\null
+\newpage
+
+% Liste des tableaux
+\lhead[]{Liste des tableaux}
+\addcontentsline{toc}{chapter}{\large Liste des tableaux}
+\listoftables 
+
+% Liste des abréviations
+\lhead[]{Liste des abréviations}
+\addcontentsline{toc}{chapter}{\large Liste des abréviations}
+\input{Pages/page_abreviations.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Partie Introduction générale
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\onehalfspacing
+% Definition de l'en-tête
+\lhead[]{Introduction}
+ % Rajout Introduction générale dans la TDM
+\addcontentsline{toc}{chapter}{\Large Introduction}
+\chapter*{Introduction}
+%%%
+\newpage
+
+\input{Pages/page_intro_generale.tex}
+
+\newpage
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Partie Bibliographie
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\newpage
+%\onehalfspacing
+%% Definition de l'en-tête
+%\lhead[]{Recherche bibliographique}
+% % Rajout Recherche bibliographique dans la TDM
+%\addcontentsline{toc}{chapter}{\Large Recherche bibliographique}
+%\chapter*{Recherche bibliographique}
+%%%
+%\newpage
+
+%\input{Pages/page_rech_biblio.tex}
+
+%\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Chapitre 1
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Definition de l'en-tête
+\lhead[]{Chapitre 1 : Présentation de la problématique}
+\newpage
+   % Inclut fichier tex du Chapitre 1
+   \input{Chapitre1/Chapitre1}
+   % Termine le Chapitre 1
+   \newpage
+   
+%Bibliographie du Chapitre 1
+ %  \bibliography{biblio}
+   % Termine la biblio du Chapitre 1
+   %\newpage
+
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Chapitre 2
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Definition de l'en-tête
+\lhead[]{Chapitre 2 : Notions mathématiques}
+\newpage
+   % Inclut fichier tex du Chapitre 2
+   \input{Chapitre2/Chapitre2}
+   % Termine le Chapitre 2
+   \newpage
+   
+%Bibliographie du Chapitre 2
+ %  \bibliography{biblio}
+   % Termine la biblio du Chapitre 2
+   %\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Chapitre 3
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Definition de l'en-tête
+\lhead[]{Chapitre 3 : Réduction dimension}
+\newpage
+   % Inclut fichier tex du Chapitre 3
+   \input{Chapitre3/Chapitre3}
+   % Termine le Chapitre 3
+   \newpage
+   
+%Bibliographie du Chapitre 3
+ %  \bibliography{biblio}
+   % Termine la biblio du Chapitre 3
+   %\newpage
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Chapitre 3
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Definition de l'en-tête
+\lhead[]{Chapitre 4 : UMAP}
+\newpage
+   % Inclut fichier tex du Chapitre 4
+   \input{Chapitre4/Chapitre4}
+   % Termine le Chapitre 4
+   \newpage
+   
+%Bibliographie du Chapitre 4
+ %  \bibliography{biblio}
+   % Termine la biblio du Chapitre 3
+   %\newpage
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% CONCLUSION 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\onehalfspacing
+% Definition de l'en-tête
+\lhead[]{Conclusion}
+ % Rajout Conclusion générale dans la TDM
+\addcontentsline{toc}{chapter}{\Large Conclusion}
+\chapter*{Conclusion}
+%%%
+\newpage
+
+\input{Pages/page_conclu_generale.tex}
+
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\lhead[]{Références}
+\newpage
+\bibliography{biblio}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%une page vierge
+\newpage
+\thispagestyle{empty}
+\null
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Page de fin
+\newpage
+\thispagestyle{empty}
+\singlespacing
+
+	\hspace{-6.5mm}
+  \fbox{
+     \begin{minipage}{15.5cm} 
+       \begin{center}\vspace{1mm}
+          \textbf{Titre mémoire français} \vspace{1mm}
+       \end{center}
+     \end{minipage}
+   }\\ [3mm]
+   
+\textbf{Résumé :} résumé français.\\
+
+\textbf{Mots clés :} mots clés français.\\[3mm]
+
+	\hspace{-8.5mm}
+  \fbox{
+     \begin{minipage}{15.5cm} 
+       \begin{center}\vspace{1mm}
+          \textbf{Titre mémoire anglais} \vspace{1mm}
+       \end{center}
+     \end{minipage}
+   }\\[3mm]
+   
+\textbf{Abstract:} résumé anglais.\\
+
+\textbf{Keywords:} key 1, key 2, key 3, key 4, key 5.
+
+\begin{center}
+\textbf{LABO - UMR CNRS n$\textdegree$ xxxx}\\
+xxx, rue xxx - 870xx Paris
+\end{center}
+
+\end{document}

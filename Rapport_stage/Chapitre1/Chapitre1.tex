@@ -1,0 +1,39 @@
+\chapter{Présentation de la problématique}
+
+\section{Aspect métier}
+
+\subsection{Pourquoi c'est important ce sujet ?}
+Ce sujet est important pour la gestion action. En effet, comme vu précedemment Seeyond propose trois types de produits: les fonds Actions, les fonds Multi-asset et les fond Volatilité et Overlay.
+\\
+Les fonds Actions sont exclusivement composés de titres d'entreprise ce qui rend compliqué leur gestion en période de crise. En effet, Seeyond étant un asset-manager, un certain de niveau de performance est attendu de la part des clients. C'est pourquoi en période de crise, les gérants de portefeuille s'interessent aux titres à faible volatilité, dit Low-vol.
+\\
+\\
+Nous disposons de multiples données sur des titres d'entreprises. Certaines comme le prix de l'action, la market cap (capitalisation) et bien d'autres sont récupérés via des sources externes comme Bloomberg; tandis que d'autre sont directement calulées par l'equipe quantitative (recherche) comme la volatilité, le momementum, ...
+\\
+L'utilisation d'un algorithme à réduction de dimension pourrait donc être pertinente dans notre cas. C'est pourquoi nous aimerions voir si UMAP peut nous aider à identifier des caractéristiques communes aux titres Low-vol. Voir même en allant plus loin à identifier les caractéristiques des titres Low-vol qui vont changer de régime (ne seront plus Low-vol).
+\\
+Il est évident que pouvoir anticiper l'identification des titres à faible volatilité, et possiblement leur changement de régime, serait un avantage non négligeable dans la gestion de portefeuille actions. Il serait ainsi possible d'optimiser les performances en période de crise en se positionnant plus efficacement dans les valeurs refuges (low-vol).
+
+\subsection{Définition de la low-vol et fréquence}
+Les titres low-vol sont des titres à faible volatilité. C'est à dire que leur prix évolue peu (en valeur).
+
+
+\section{Aspect technique}
+
+\subsection{Pourquoi c'est riche comme sujet ?}
+C'est un sujet vaste, nous allons aborder de nombreuses notions comme le fléau de la dimension lorque l'on travaille en grande dimension et l'intérêt des algorithmes de réduction de dimension pour palier à ce problème.
+\\
+Nous allons traiter de UMAP, des intuitions derrières cet algorithme et des avantages/différences comparées aux algorithmes existants.
+
+
+\section{Données/cadre de travail}
+
+\subsection{Avec quoi/qui/comment tu bosses ?}
+J'ai travaillé conjointement avec l'équipe Recherche, la Gestion Action de qui vient la demande et l'équipe RAD sur ce projet. J'étais le principal interlocuteur de l'équipe RAD sur ce sujet même si l'ensemble de l'équipe restait informé du sujet. 
+\\
+L'équipe Recherche avait le lead sur ce projet. Je travaillai puis validais l'avancée avec la recherche qui m'indiquait la suite du travail et m'aidait dans mes interprétations.
+\\
+J'ai travaillé sur ce projet en autonomie et sur d'autres projet en parallèle durant ma mission. 
+
+\subsection{Exploitation transformations des données}
+Le jeu de données a été fourni par l'équipe Recherche. Il comprend diverses informations sur des titres d'entreprises (environ 1800 - de diverses régions et divers secteurs) de 1997 à 2017. Les informations sur ces titres sont récupérés de sources externes comme Bloomberg ou ont eté calculées par l'équipe Recherche.

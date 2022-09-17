@@ -1,0 +1,140 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%															Définition du style personnalisé de la thèse																			%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% Definition des marges
+\setlength{\topmargin}{-1cm} \setlength{\oddsidemargin}{0.cm}
+\setlength{\textwidth}{16cm} 
+\setlength{\textheight}{24cm}
+\setlength{\footskip}{1.5 cm}
+
+% Définition de la profondeur de numérotation
+\setcounter{secnumdepth}{5}
+
+% Définition de la profondeur de la table des matières
+\setcounter{tocdepth}{4}
+
+% Modification de la forme des parties
+% dans le document
+\makeatletter
+\renewcommand\chapter{%
+  \if@openright
+    \cleardoublepage
+  \else
+   \clearpage
+  \fi
+  %\thispagestyle{plain}%
+  \if@twocolumn
+    \onecolumn
+    \@tempswatrue
+  \else
+    \@tempswafalse
+  \fi
+  \null\vfil
+  \secdef\@chapter\@schapter}
+
+\def\@chapter[#1]#2{%
+    \ifnum \c@secnumdepth >-2\relax
+      \refstepcounter{chapter}%
+      \addcontentsline{toc}{chapter}{\Large Chapitre \thechapter ~: #1}%
+    \else
+      \addcontentsline{toc}{chapter}{\Large #1}%
+    \fi
+    %\markboth{}{}%
+    {\centering
+     \interlinepenalty \@M
+     \normalfont
+     \ifnum \c@secnumdepth >-2\relax
+       \huge\bfseries Chapitre \thechapter ~: \\ 
+       \par
+       \vskip 20\p@
+     \fi
+     \Huge \bfseries #2\par}%
+    \@endchapter}
+\def\@schapter#1{%
+    {\centering
+     \interlinepenalty \@M
+     \normalfont
+     \Huge \bfseries #1\par}%
+    \@endchapter}
+\def\@endchapter{\vfil\newpage
+              \if@twoside
+               \if@openright
+                \null
+                %\thispagestyle{empty}%
+                \newpage
+               \fi
+              \fi
+              \if@tempswa
+                \twocolumn
+              \fi}
+\makeatother
+
+% Modification de la table des matières
+% Met des petits points sur les chapitres
+\makeatletter
+\renewcommand*\l@chapter[2]{%
+  \ifnum \c@tocdepth >\m@ne
+    \addpenalty{-\@highpenalty}%
+    \vskip 1.0em \@plus\p@
+    \setlength\@tempdima{1.5em}%
+    \begingroup
+      \parindent \z@ \rightskip \@pnumwidth
+      \parfillskip -\@pnumwidth
+      \leavevmode \bfseries
+      \advance\leftskip\@tempdima
+      \hskip -\leftskip
+      #1\nobreak\ 
+       \leaders\hbox{$\m@th
+        \mkern \@dotsep mu\hbox{.}\mkern \@dotsep
+        mu$}\hfil\nobreak\hb@xt@\@pnumwidth{\hss #2}\par
+      \penalty\@highpenalty
+    \endgroup
+  \fi}
+\makeatother
+
+% Redefinition de l'environnement bibliographie
+\makeatletter
+\renewenvironment{thebibliography}[1]
+     {\chapter*{\bibname}%
+      \@mkboth{\MakeUppercase\bibname}{\MakeUppercase\bibname}%
+      \list{\@biblabel{\@arabic\c@enumiv}}%
+           {\settowidth\labelwidth{\@biblabel{#1}}%
+            \leftmargin\labelwidth
+            \advance\leftmargin\labelsep
+            \@openbib@code
+            \usecounter{enumiv}%
+            \let\p@enumiv\@empty
+            \renewcommand\theenumiv{\@arabic\c@enumiv}}%
+      \sloppy
+      \clubpenalty4000
+      \@clubpenalty \clubpenalty
+      \widowpenalty4000%
+      \sfcode`\.\@m}
+\makeatother   
+
+% Redefinition de la hauteur de l'en-tête
+% Pour éliminer les erreur Overfull \vbox
+\addtolength{\headheight}{2pt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Redefinition de l'environnement bibliographie pour la biblio perso
+\makeatletter
+\newenvironment{thebibliographyperso}[1]
+     {%\chapter{\bibname}%
+      \@mkboth{\MakeUppercase\bibname}{\MakeUppercase\bibname}%
+      \list{\@biblabel{\@arabic\c@enumiv}}%
+           {\settowidth\labelwidth{\@biblabel{#1}}%
+            \leftmargin\labelwidth
+            \advance\leftmargin\labelsep
+            \@openbib@code
+            \usecounter{enumiv}%
+            \let\p@enumiv\@empty
+            \renewcommand\theenumiv{\@arabic\c@enumiv}}%
+      \sloppy
+      \clubpenalty4000
+      \@clubpenalty \clubpenalty
+      \widowpenalty4000%
+      \sfcode`\.\@m}
+\makeatother   
