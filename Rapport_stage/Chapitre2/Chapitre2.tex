@@ -71,15 +71,15 @@ Cela définit l'aire totale entre deux fonctions $f$ et $g$ :
 
 En général, si f et g sont deux fonctions dans C[a, b], alors on définit pour tout p >= 1 :
 
-\includegraphics[width=100pt]{./img/notions_math/metric/eq_fcn_con_1_2}
-\\
-\\
-\textit{Une autre métrique continue}
-\\
-Soit C[a, b] l'espace des fonctions continues avec le domaine [a, b]. Nous pouvons définir la métrique suivante comme êtant la distance maximale entre f et g dans l'intervalle [a, b] : 
-\\
-\includegraphics[width=100pt]{./img/notions_math/metric/eq_fcn_con_2}
+%\includegraphics[width=100pt]{./img/notions_math/metric/eq_fcn_con_1_2}
+$$ d_p(f,g) = (\int_a^b  \lvert f(x) - g(x) \rvert ^p dx)^{1/p}$$
 
+\textit{Une autre métrique continue}
+Soit $C[a, b]$ l'espace des fonctions continues avec le domaine $[a, b]$. Nous pouvons définir la métrique suivante comme êtant la distance maximale entre $f$ et $g$ dans l'intervalle $[a, b] $: 
+
+%\includegraphics[width=100pt]{./img/notions_math/metric/eq_fcn_con_2}
+$$ d_\infty(f,g) = max \left\{  \lvert f(x) - g(x) \rvert : x \in [a,b] \right\}
+$$
 
     
 \section*{Espaces Métrique}
